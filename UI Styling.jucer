@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="eUf5Mh" name="Params" projectType="audioplug" useAppConfig="0"
+<JUCERPROJECT id="eUf5Mh" name="UI Styling" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
-  <MAINGROUP id="ZofoTR" name="Params">
+  <MAINGROUP id="ZofoTR" name="UI Styling">
     <GROUP id="{2E0BC783-1FD4-2058-2E09-B5AFC66A4A65}" name="Source">
       <FILE id="nD7rXD" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
@@ -13,7 +13,7 @@
       <FILE id="ysVmyJ" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
       <FILE id="JDwsOX" name="APVTS.cpp" compile="1" resource="0" file="Source/APVTS.cpp"/>
       <FILE id="H9ZSJH" name="APVTS.h" compile="0" resource="0" file="Source/APVTS.h"/>
-      <FILE id="KddzoE" name="Params.h" compile="0" resource="0" file="Source/Params.h"/>
+      <FILE id="rgQL21" name="Params.h" compile="0" resource="0" file="Source/Params.h"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>
@@ -35,8 +35,8 @@
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="Params"/>
-        <CONFIGURATION isDebug="0" name="Release" targetName="Params"/>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="UI Styling"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="UI Styling"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_audio_basics" path="juce/modules"/>
