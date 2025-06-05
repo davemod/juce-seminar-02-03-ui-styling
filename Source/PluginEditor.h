@@ -11,6 +11,7 @@
 #include <JuceHeader.h>
 #include "PluginProcessor.h"
 #include "Attachments.h"
+#include "LookAndFeel.h"
 
 //==============================================================================
 /**
@@ -39,5 +40,6 @@ private:
 	juce::ToggleButton syncBox;
 	Better::ButtonAttachment syncAttachment;
 
+	MyLookAndFeel myLookAndFeel;
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (ParamsAudioProcessorEditor)
 };
