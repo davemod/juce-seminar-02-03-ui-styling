@@ -15,6 +15,9 @@
       <FILE id="H9ZSJH" name="APVTS.h" compile="0" resource="0" file="Source/APVTS.h"/>
       <FILE id="rgQL21" name="Params.h" compile="0" resource="0" file="Source/Params.h"/>
     </GROUP>
+    <GROUP id="{E8D9FEDD-2E97-05C1-62F6-F2EFE817FC1F}" name="Assets">
+      <FILE id="WEDOju" name="knob1.png" compile="0" resource="1" file="Assets/knob1.png"/>
+    </GROUP>
   </MAINGROUP>
   <MODULES>
     <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>

@@ -11,6 +11,8 @@
 #include <JuceHeader.h>
 #include "PluginProcessor.h"
 #include "Attachments.h"
+#include "FilmstripSlider.h"
+
 #include "LookAndFeel.h"
 
 //==============================================================================
@@ -31,7 +33,7 @@ private:
     // access the processor object that created it.
     ParamsAudioProcessor& audioProcessor;
 
-    juce::Slider delaySlider;
+	FilmstripSlider delaySlider;
     APVTS::SliderAttachment delayAttachment;
     
     juce::ComboBox timeSignatureBox;
